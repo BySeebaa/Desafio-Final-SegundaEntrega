@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+header {
+    width:100%;
+    padding:50px;
+    margin:0px;
+    background-image: url('/Imagenes/FondoEncabezado.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:100%;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:orange;
+    font-size: 100px;
+    font-style: italic;
+}
+
+
+.conocenos {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    padding: 50px;
+    background-image: url('/Imagenes/FondoProductos.jpg');
+    font-size:40px;
+    background-size: 30%;
+
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    font-size:100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: 30%;
+    font-style: italic;
+    color: green;
+
+}
+
+.accordion {
+    background-image: url('/Imagenes/FondoBody.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding:50px;
+}
+
+
+footer {
+    background-image: url('/Imagenes/FondoEncabezado.webp');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.titlefooter {
+    text-align: center;
+    color:brown;
+}
+
+.redes {
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.quitarestilos {
+    list-style: none;
+}
+
+.imagenredes {
+    position: relative;
+    right:40px;
+    top:23px;
+}
+
+.video  {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.parrafocontacto {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: aquamarine;
+    font-weight: 30px;
+}
+
+.formulario {
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkred;
+    font-weight:  100px;
+    font-style: italic;
+    margin: 50px;
+    padding: 50px;
+    background-image: url('/Imagenes/FondoProductos.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
